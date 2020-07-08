@@ -15,14 +15,14 @@ model/...  |-- M层其他 model
 routes/...  |-- koa-router 标准的 router 写法，也有对应的 Controller 使用例子
 schema/...  |-- sequelize-auto 生成的所有表对应的模型，这里叫 schema 不自定义的话，默认应该是 models
 sequelize-auto-files/...  |-- sequelize-auto 生成模型要使用到的文件，里面有一个简单的介绍文件
+view-admin  |-- 个人新增的一个静态文件存放目录，专门供使用 vue 或者 react 打包之后直接放这儿，路由访问就是  http://****/dist/index.html
 controller.js  |-- routes 里面使用的 controller 直接调用的这个文件
 model.js  |-- base.controller.js 里面使用的 Model 就是这里的
-rest.js  |-- restFulAPI
+rest.js  |-- restFulAPI 在 controller 里面有简单的 demo
 router.js  |-- app.js 里直接引入的这个文件，所有路由在这里注册上去的
 templating.js  |-- app.js 引入这个文件，在这个文件里注册的 art-template
 ```
 **提示，这个也就适合新手过来玩玩，大神请飘过**
-
 
 记录一下创建的时候怎么把代码提到对应的库上的指令
 Quick setup — if you’ve done this kind of thing before
