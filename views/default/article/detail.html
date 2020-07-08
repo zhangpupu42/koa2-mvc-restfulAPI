@@ -1,0 +1,18 @@
+{{extend '../common/public.html'}}
+
+{{block 'head-css'}}
+	<link rel="stylesheet" type="text/css" href="/default/css/article/detail.css"/>
+{{/block}}
+
+{{block 'content'}}
+{{if info}}
+<div>
+	<div>id -- {{info.id}}</div>
+	<div>title -- {{info.title}}</div>
+	<div>keyWords -- {{info.key_words}}</div>
+	<div>content -- {{info.content}}</div>
+	<div>create_time -- {{info.create_time}}</div>
+	<div>update_time -- {{info.update_time}}</div>
+</div>
+{{/if}}
+{{/block}}

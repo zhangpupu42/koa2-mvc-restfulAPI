@@ -1,0 +1,5 @@
+{
+	"timestamps":true,
+	"createdAt":"create_time",
+	"updatedAt":"update_time"
+}
